@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Products</title>
+  <title>Tour</title>
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -15,134 +15,196 @@
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#banner">Jump to main banner</a></li>
+    <li><a href="#cards">Jump to plan cards</a></li>
+    <li><a href="#c-free">Jump to free card</a></li>
+    <li><a href="#c-advanced">Jump to advance card</a></li>
+    <li><a href="#c-enterprise">Jump to enterprise card</a></li>
+    <li><a href="#c-single">Jump to single app card</a></li>
+    <li><a href="#f-table">Jump to feature table</a></li>
+    <li><a href="#t-category">Jump to table category</a></li>
+    <li><a href="#t-sc">Jump to storage capacity</a></li>
+    <li><a href="#ual">Jump to user account limit</a></li>
+    <li><a href="#t-nc">Jump to network control</a></li>
+    <li><a href="#t-ps">Jump to phone support</a></li>
+    <li><a href="#t-price">Jump to plan price</a></li>
   </ul>
 
-  <header class="grid grid-middle">
-    <nav class="unit gutter-2 island-1-2 giga xs-1 s-1 m-1 l-1">
-      <div class="icon i-7-4">
-        <img src="images/logo-wht.png" alt="logo">
+  <header class="grid fixed zindex-3 w-1 grid-middle" role="banner" id="banner" tabindex="0">
+    <nav class="unit island-1-2 pad-b-2 giga unit-xs-cenered unit-s-centered xs-1 s-1 m-1 l-1" role="navigation" id="nav" tabindex="0">
+      <div class="icon text-center i-7-4">
+        <img src="images/logo.png" alt="logo">
       </div>
-      <div class="unit gutter-2 right">
-        <ul class="ib list-group-inline v-align push-0">
-          <li class="ib kilo gutter-1-4"><a class="link-box" href="index.html">Home</a></li>
-          <li class="ib kilo gutter-1-4"><a class="current link-box" href="tour.html">Products</a></li>
-          <li class="ib kilo gutter-1-4"><a class="link-box" href="pricing.html">Pricing</a></li>
-          <li class="ib kilo gutter-1-4"><a class="link-box" href="contact.html">Contact Us</a></li>
+      <div class="unit gutter right">
+        <ul class="ib text-center unit-xs-cenered unit-s-centered list-group-inline v-align push-0">
+          <li class="kilo gutter-1-4"><a class="btn link-box" href="index.html">Home</a></li>
+          <li class="kilo gutter-1-4"><a class="btn current link-box" href="pricing.html">Products</a></li>
+          <li class="kilo gutter-1-4"><a class="btn link-box" href="tour.html">Pricing</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
-  <div class="container relative banner push-2">
-    <div class="embed embed-4by3">
-      <img class="img-flex embed-item" src="images/main-banner.png" alt="">
-    </div>
-    <div class="banner-content text-center growth">
-      <h1 class="text-upper tera pad-t-2 wrapper">We Care About Your Growth.</h1>
-      <h2 class="text-center mega pad-b-2">Select a product to help you succeed</h2>
-    </div>
-  </div>
+  <main role="main" id="main" tabindex="0">
 
-  <main>
-    <div>
-      <ul class="grid gutter-1-4 grid-stretch list-group">
-        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3">
+    <div class="container relative banner push-2">
+      <div class="embed embed-4by3">
+        <img class="img-flex embed-item" src="images/main-banner.png" alt="multiple sticky notes">
+      </div>
+      <div class="banner-content text-center">
+        <h1 class="text-upper tera pad-t-2 wrapper bold">Select a plan that suits you.</h1>
+      </div>
+    </div>
+
+    <div class="list-group-inline features">
+      <ul class="grid gutter-1-4 text-center grid-stretch list-group" id="cards" tabindex="0">
+        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3" id="c-free" tabindex="0">
           <div class="unit-content-distribute content-fill island-1-2 card">
-            <div class="text-center">
-              <img class="img-flex icon i-128" src="images/bi-icon.svg" alt="">
-            </div>
-            <h3 class="kilo push-0 pad-t-1-2">Business Intellegence</h3>
-            <p class="max-length content-fill push-2 kilo">Advanced tools to manage and support business data with analytics, visuals and reporting. The solution allows businesses to analyze big and disparate datasets and generate relevant business trends for them.</p>
-            <div class="text-center pad-t">
-              <a class="btn micro trial-btn push-1-2 island-1-2 gutter" href="pricing.html">Purchase</a>
-            </div>
-            <div class="text-center pad-t">
-              <a class="btn micro trial-btn push-1-2 island-1-2 gutter" href="pricing.html">Purchase</a>
-            </div>
-          </div>
-        </li>
-        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3">
-          <div class="unit-content-distribute island-1-2 content-fill card">
-            <div class="text-center">
-              <img class="img-flex icon i-128" src="images/cal-icon.svg" alt="">
-            </div>
-            <h3 class="kilo push-0 pad-t-1-2">EZ Cal</h3>
-            <p class="max-length content-fill push-2 kilo">Customizable calendar with features to share activities, events and schedules. Improve communication with desktop and mobile access, website calendar plugins, meeting reminders and more.</p>
-            <div class="text-center pad-t">
-              <a class="btn micro trial-btn push-1-2 island-1-2 gutter" href="pricing.html">Purchase</a>
+            <h2 class="text-upper mega max-length push-0 pad-t-1-2 bold">Free</h2>
+            <p class="push-0 limit italic">*Limited Access*</p>
+            <ul class="list-group pricing-list pad-t">
+              <li class="push-1-2">30GB of secure storage</li>
+              <li class="push-1-2">Sharing/collaboration tools</li>
+              <li class="push-1-2">Multi-user accounts (limit 3)</li>
+            </ul>
+            <div class="text-center pad-t-2">
+              <a class="btn milli trial-btn push-1-2 island-1-2 gutter" href="sign-up.html">Sign Up</a>
             </div>
           </div>
         </li>
-        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3">
-          <div class="unit-content-distribute island-1-2 content-fill card">
-            <div class="text-center">
-              <img class="img-flex icon i-128" src="images/mail-icon.svg" alt="">
-            </div>
-            <h3 class="kilo push-0 pad-t-1-2">Blue Cloud</h3>
-            <p class="max-length content-fill push-2 kilo">The best email client, with support for a huge range of email providers, integrated chat, smart translation, and simple migration.</p>
-            <div class="text-center pad-t">
-              <a class="btn micro trial-btn push-1-2 island-1-2 gutter" href="pricing.html">Purchase</a>
-            </div>
-          </div>
-        </li>
-        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3">
+        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3" id="c-advanced" tabindex="0">
           <div class="unit-content-distribute content-fill island-1-2 card">
-            <div class="text-center">
-              <img class="img-flex icon i-128" src="images/cloud-icon.svg" alt="">
-            </div>
-            <h3 class="kilo push-0 pad-t-1-2">Cloud Storage</h3>
-            <p class="max-length content-fill push-2 kilo">Address recurring invoices and subscription easily. It supports online payment collection via credit cards, PayPal and Google Checkout. This piece of software integrates seamlessly with known business applications, allowing for streamlined processes.</p>
-            <div class="text-center pad-t">
-              <a class="btn micro trial-btn push-1-2 island-1-2 gutter" href="pricing.html">Purchase</a>
-            </div>
-          </div>
-        </li>
-        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3">
-          <div class="unit-content-distribute island-1-2 content-fill card">
-            <div class="text-center">
-              <img class="img-flex icon i-128" src="images/money-icon.svg" alt="">
-            </div>
-            <h3 class="kilo push-0 pad-t-1-2">Finance Manager</h3>
-            <p class="max-length content-fill push-2 kilo">Address recurring invoices and subscription easily. It supports online payment collection via credit cards, PayPal and Google Checkout. This piece of software integrates seamlessly with known business applications, allowing for streamlined processes.</p>
-            <div class="text-center pad-t">
-              <a class="btn micro trial-btn push-1-2 island-1-2 gutter" href="pricing.html">Purchase</a>
+            <h2 class="text-upper mega max-length push-0 pad-t-1-2 bold">Advanced</h2>
+            <p class="bold push-0 pad-t-1-2">CA $13.99 / month</p>
+            <ul class="list-group pricing-list pad-t">
+              <li class="push-1-2">5TB of secure storage</li>
+              <li class="push-1-2">Sharing/collaboration tools</li>
+              <li class="push-1-2">Multi-user accounts (limit 10)</li>
+              <li>Access to experts</li>
+            </ul>
+            <div class="text-center pad-t-2">
+              <a class="btn milli trial-btn push-1-2 island-1-2 gutter" href="sign-up.html">Purchase</a>
             </div>
           </div>
         </li>
-        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3">
-          <div class="unit-content-distribute island-1-2 content-fill card">
-            <div class="text-center">
-              <img class="img-flex icon i-128" src="images/people-icon.svg" alt="">
+        <li class="unit island-1-4 push-1-2 unit-content-distribute gutter xs-1 s-1 m-1-2 l-1-3" id="c-enterprise" tabindex="0">
+          <div class="unit-content-distribute content-fill island-1-2 card">
+            <h2 class="text-upper mega max-length push-0 pad-t-1-2 bold">Enterprise</h2>
+            <p class="bold push-0 pad-t-1-2">Starting at CA $139.99 / month</p>
+            <ul class="list-group pricing-list pad-t pad-b">
+              <li class="push-1-2">5TB of secure storage</li>
+              <li class="push-1-2">Sharing/collaboration tools</li>
+              <li class="push-1-2">Multi-user accounts (unlimited)</li>
+              <li class="push-1-2">Access to experts</li>
+              <li class="push-1-2">Account Capture</li>
+              <li class="push-1-2">Network Control</li>
+              <li class="push-1-2">24/7 Phone Support</li>
+            </ul>
+            <div class="text-center pad-t-2">
+              <a class="btn milli trial-btn push-1-2 island-1-2 gutter" href="sign-up.html">Contact for Details</a>
             </div>
-            <h3 class="kilo push-0 pad-t-1-2 text-upper">Crm</h3>
-            <p class="max-length content-fill push-2 kilo">Get real-time customer information and activity in one place, plus insights with dashboards and reports. Connect to thousands of business apps to extend your CRM to every department.</p>
-            <div class="text-center pad-t">
-              <a class="btn micro trial-btn push-1-2 island-1-2 gutter" href="pricing.html">Purchase</a>
+          </div>
+        </li>
+        <li class="unit island-1-4 push-1-2 unit-content-distribute unit-m-centered unit-l-centered guttergutter gutter xs-1 s-1 m-1-2 l-1-3" id="c-single" tabindex="0">
+          <div class="unit-content-distribute content-fill island-1-2 card">
+            <h2 class="text-upper mega max-length push-0 pad-t-1-2 bold">Single App</h2>
+            <p class="bold ">Starting at CA $26.78 / month <br> or <br> Starting at CA $321.19 / year</p>
+            <div class="push gutter-2">
+              <label class="pad-b-1-2 limit italic" for="subject">Select your choice of app</label>
+              <select id="subject" name="_subject" required>
+                <option value="">-- Select Your App --</option>
+                <option value="">Business Intellegence</option>
+                <option value="">EZ Cal</option>
+                <option value="">Blue Cloud</option>
+                <option value="">Cloud Storage</option>
+                <option value="">Finance Manager</option>
+                <option value="">CRM</option>
+              </select>
+            </div>
+            <p>Choice of productivity app includes:</p>
+            <ul class="list-group pricing-list pad-">
+              <li class="push-1-2">Easy collaboration tools</li>
+              <li class="push-1-2">Multi-user accounts</li>
+              <li class="push-1-2">Up to 10TB of storage</li>
+            </ul>
+            <div class="text-center pad-t-2">
+              <a class="btn milli trial-btn push-1-2 island-1-2 gutter" href="sign-up.html">Sign Up</a>
             </div>
           </div>
         </li>
       </ul>
     </div>
-
+    <section class="table-wrapper text-center scrollable gutter-2 pad-b-2" id="f-table" tabindex="0">
+      <table class="push-0">
+        <caption class="peta text-center pad-t-2">Plan Feature</caption>
+        <thead>
+          <tr id="t-category" tabindex="0">
+            <th class="feature text-upper text-center" scope="col">Feature</th>
+            <th class="storage text-upper text-center" scope="col">Free</th>
+            <th class="collab text-upper text-center" scope="col">Advanced</th>
+            <th class="accounts text-upper text-center" scope="col">Enterprise</th>
+            <th class="network text-upper text-center" scope="col">Single App</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-center" id="t-sc" tabindex="0">
+            <th scope="row" class="not-bold text-center">Storage Capacity</th>
+            <td class="text-center">30GB</td>
+            <td class="text-center">5TB</td>
+            <td class="text-center">30TB</td>
+            <td class="text-center">10TB</td>
+          </tr>
+          <tr class="text-center" id="ual" tabindex="0">
+            <th scope="row" class="not-bold text-center">User Accounts</th>
+            <td class="text-center">3</td>
+            <td class="text-center">10</td>
+            <td class="text-center">Unlimited</td>
+            <td class="text-center">2</td>
+          </tr>
+          <tr class="text-center" id="t-nc" tabindex="0">
+            <th scope="row" class="not-bold text-center">Network Control</th>
+            <td class="text-center">x</td>
+            <td class="text-center">✓</td>
+            <td class="text-center">✓</td>
+            <td class="text-center">x</td>
+          </tr>
+          <tr class="text-center" id="t-ps" tabindex="0">
+            <th scope="row" class="not-bold text-center">Phone Support</th>
+            <td class="text-center">✓</td>
+            <td class="text-center">✓</td>
+            <td class="text-center">✓</td>
+            <td class="text-center">✓</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr id="t-price" tabindex="0">
+            <th scope="row" class="not-bold italic text-center">Price</th>
+            <td class="text-center">Free</td>
+            <td class="text-center">CA $13.99/mo.</td>
+            <td class="text-center">CA $139.99/mo.</td>
+            <td class="text-center">CA $26.78/mo.</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
   </main>
 
-  <footer>
+  <footer role="contentinfo" id="contentinfo" tabindex="0">
     <div>
       <div class="text-center island">
-        <img class="icon i-48" src="images/logo-wht.png" alt="">
+        <img class="icon i-48" src="images/logo.png" alt="logo">
       </div>
       <div class="text-center">
         <nav>
-          <ul class="list-group">
+          <ul class="list-group push-0">
             <li class="ib micro gutter-1-4"><a class="link-box" href="index.html">Home</a></li>
-            <li class="ib micro gutter-1-4"><a class="link-box" href="tour.html">Products</a></li>
-            <li class="ib micro gutter-1-4"><a class="link-box" href="pricing.html">Pricing</a></li>
-            <li class="ib micro gutter-1-4"><a class="link-box" href="contact.html">Contact Us</a></li>
+            <li class="ib micro gutter-1-4"><a class="link-box" href="pricing.html">Products</a></li>
+            <li class="ib micro gutter-1-4"><a class="link-box" href="tour.html">Pricing</a></li>
           </ul>
         </nav>
       </div>
       <div class="text-center">
-        <small class="copyright">© 2019 J. Corp</small>
+        <small class="micro copyright">© 2019 J. Corp</small>
       </div>
     </div>
   </footer>
