@@ -11,56 +11,90 @@ body {
   background-attachment: fixed;
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+a:focus {
+  outline: 3px solid #414182;
+}
+
+h1 {
+  font-weight: 900;
+}
+
 h2 {
   font-family: Montserrat, sans-serif;
-  color: #1e1e1e;
+  color: #414182;
+  font-weight: 900;
+}
+
+.info {
+  font-family: Montserrat, sans-serif;
+  color: #414182;
+  font-weight: 900;
 }
 
 h3 {
-  color: #1e1e1e;
+  color: #414182;
+}
+
+p {
+  font-weight: 300;
 }
 
 .current {
-  border-bottom: solid 3px #fff;
+  border-bottom: solid 3px #414182;
+  color: #414182;
 }
 
 nav {
-  background-color: #837ef0;
+  background-color: #fff;
 }
 
 nav a {
-  color: #fff;
+  color: #414182;
   border: 0;
 }
 
-nav a:hover {
-  color: #c3c3f4;
-  transition: ease-in-out 150ms;
-}
-
-.current:hover {
-  border-bottom: solid 3px #c3c3f4;
-}
-
 .container {
-  max-height: 35em;
+  max-height: 45em;
   overflow: hidden;
-  top: auto;
+  bottom: 50%;
 }
 
 .growth h2 {
   color: #fff;
 }
 
+.btn {
+  background-color: #fff;
+  border: 0;
+  color: #414182;
+}
+
+.btn-send {
+  background-color: #414182;
+  border: 0;
+  color: #fff;
+}
+
 .btn:hover {
-  background-color: transparent;
+  background-color: #414182;
+  color: #fff;
+  border: 0;
   border-radius: 5px;
   transition: ease-in-out 250ms;
 }
 
 .banner-content {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -68,7 +102,7 @@ nav a:hover {
 
 .start-btn {
   background-color: #fff;
-  color: #837ef0;
+  color: #414182;
   border: solid 3px #fff;
   border-radius: 5px;
 }
@@ -85,7 +119,7 @@ a {
 
 .card {
   background-color: #fff;
-  border: 3px solid #837ef0;
+  border: 3px solid #414182;
   border-radius: 5px;
   position: relative;
 }
@@ -97,27 +131,25 @@ a {
 
 .card:hover .trial-btn {
   background-color: #fff;
-  border: solid 3px #837ef0;
   border-radius: 5px;
-  color: #837ef0;
+  color: #414182;
   transition: ease-in-out 150ms;
 }
 
 .trial-btn {
-  background-color: #837ef0;
+  background-color: #414182;
   color: #fff;
-  border: solid 3px #837ef0;
+  border: solid 3px #414182;
   border-radius: 5px;
-  position: absolute;
   bottom: 1%;
   left: 25%;
 }
 
 .trial-btn:hover {
   background-color: #fff;
-  border: solid 3px #837ef0;
+  border: solid 3px #414182;
   border-radius: 5px;
-  color: #837ef0;
+  color: #414182;
 }
 
 .review {
@@ -134,10 +166,10 @@ a {
 input,
 select,
 textarea {
-  border-color: #837ef0;
+  border-color: #414182;
   border-width: 3px;
   border-radius: 5px;
-  color: #837ef0;
+  color: #414182;
   font-family: Montserrat, sans-serif;
 }
 
@@ -146,21 +178,21 @@ label {
 }
 
 section p {
-  color: #837ef0;
+  color: #414182;
 }
 
 section .btn {
-  background-color: #837ef0;
-  border: solid 3px #837ef0;
+  background-color: #414182;
+  border: solid 3px #414182;
   border-radius: 5px;
   color: #fff;
 }
 
 section .btn:hover {
   background-color: transparent;
-  border: solid 3px #837ef0;
+  border: solid 3px #414182;
   border-radius: 5px;
-  color: #837ef0;
+  color: #414182;
 }
 
 .faq {
@@ -168,14 +200,63 @@ section .btn:hover {
 }
 
 .question {
-  color: #837ef0;
+  color: #414182;
 }
 
 .limit {
-  color: #837ef0;
+  color: #414182;
+}
+
+.pricing-list {
+  font-weight: 300;
+}
+
+.home-link {
+  color: #1e1e1e;
+}
+
+.home-link:hover {
+  color: #414182;
+  transition: ease-in-out 150ms;
 }
 
 footer {
-  background-color: #837ef0;
-  color: #fff;
+  background-color: #fff;
+  color: #414182;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e6e6ff;
+}
+
+.feature {
+  width: 7em;
+}
+
+.storage {
+  width: 6em;
+}
+
+.collab {
+  width: 16em;
+}
+
+.accounts {
+  width: 16em;
+}
+
+.network {
+  width: 16em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
 }
