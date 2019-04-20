@@ -11,9 +11,100 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
 </head>
 <body>
+
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#banner-info">Jump to banner information</a></li>
+    <li><a href="#banner-title">Jump to banner title</a></li>
+    <li><a href="#banner-sentence">Jump to banner sentence</a></li>
+    <li><a href="#banner-img">Jump to banner image</a></li>
+    <li><a href="#heading">Jump to page heading</a></li>
+    <li><a href="#sentence">Jump to page sentence</a></li>
+    <li><a href="#card-name">Jump to cardholder name</a></li>
+    <li><a href="#email">Jump to email</a></li>
+    <li><a href="#c-num">Jump to card number</a></li>
+    <li><a href="#exp-date">Jump to expiration date</a></li>
+    <li><a href="#send">Jump to send</a></li>
+    <li><a href="#home">Jump to go back home</a></li>
   </ul>
+
+  <header class="grid fixed zindex-3 w-1 grid-middle" role="banner" id="banner" tabindex="0">
+    <nav class="unit island-1-2 pad-b-2 giga unit-xs-cenered unit-s-centered xs-1 s-1 m-1 l-1" role="navigation" id="nav" tabindex="0">
+      <div class="icon text-center i-7-4">
+        <img src="images/logo.png" alt="logo">
+      </div>
+      <div class="unit gutter right">
+        <ul class="ib text-center unit-xs-cenered unit-s-centered list-group-inline v-align push-0">
+          <li class="kilo gutter-1-4"><a class="link-box" href="index.html">Home</a></li>
+          <li class="kilo gutter-1-4"><a class="link-box" href="pricing.html">Products</a></li>
+          <li class="kilo gutter-1-4"><a class="current link-box" href="tour.html">Pricing</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contact pad-b-2" role="main" id="main" tabindex="0">
+    <div class="container relative banner push-2" id="banner-info" tabindex="0">
+      <div class="embed embed-4by3">
+        <img class="img-flex embed-item" src="images/main-banner.png" alt="" id="banner-img" tabindex="0">
+      </div>
+      <div class="banner-content text-center">
+        <h1 class="text-upper tera pad-t-2 wrapper" id="banner-title" tabindex="0">Thank You For Your Consideration.</h1>
+        <p class="max-length text-center" id="banner-sentence" tabindex="0">After we recieve your information, check your inbox to download your software.</p>
+      </div>
+    </div>
+    <section>
+      <div class="max-length" id="main-info" tabindex="0">
+        <h2 class="info giga gutter-2 push-0 push-1-2 text-center text-upper" id="heading" tabindex="0">Please Enter Your information Below</h2>
+        <p class="max-length text-center" id="sentence" tabindex="0">After we recieve your information, check your inbox to <br> download your software.</p>
+        <form method="POST" action="https://formspree.io/jesse.mann.williams@gmail.com">
+          <div class="push gutter-2">
+            <label for="card-name">cardholder name</label>
+            <input id="card-name" name="card-name" required>
+          </div>
+          <div class="push gutter-2">
+            <label for="email">email</label>
+            <input id="email" type="email" placeholder="email@email.com" name="email" required>
+          </div>
+          <div class="push gutter-2">
+            <label for="c-num">card number</label>
+            <input id="c-num" name="c-num" required>
+          </div>
+          <div class="push gutter-2 w-1-2">
+            <label for="exp-date">exp. date</label>
+            <input id="exp-date" name="exp-date" required>
+          </div>
+          <div class="text-center pad-t-1-2 gutter-2 push-1-2" id="send" tabindex="0">
+            <button class="btn btn-light milli gutter pad-t-1-2 pad-b-1-2" type="submit">Send me my software!</button>
+          </div>
+          <div class="text-center">
+            <a class="milli home-link italic list-group-inline" href="index.html" id="home" tabindex="0">Go back home</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo" tabindex="0">
+    <div>
+      <div class="text-center island">
+        <img class="icon i-48" src="images/logo.png" alt="">
+      </div>
+      <div class="text-center">
+        <nav>
+          <ul class="list-group push-0">
+            <li class="ib micro gutter-1-4"><a class="link-box" href="index.html">Home</a></li>
+            <li class="ib micro gutter-1-4"><a class="link-box" href="pricing.html">Products</a></li>
+            <li class="ib micro gutter-1-4"><a class="link-box" href="tour.html">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="text-center">
+        <small class="micro copyright">© 2019 J. Corp</small>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
