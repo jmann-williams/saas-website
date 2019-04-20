@@ -3,20 +3,18 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#2F2C3C;stroke-width:10;}
-	.st1{fill:#837EF0;}
+	.st0{fill:none;stroke:#15141C;stroke-width:10;}
+	.st1{fill:#414182;}
 </style>
-<g>
-	<line class="st0" x1="324" y1="454.1" x2="250.6" y2="251.1"/>
-	<line class="st0" x1="86.1" y1="77.5" x2="250.6" y2="251.1"/>
-	<line class="st0" x1="250.6" y1="44.8" x2="250.6" y2="251.1"/>
-	<line class="st0" x1="447.8" y1="251.1" x2="250.6" y2="251.1"/>
-	<line class="st0" x1="53.3" y1="377.2" x2="250.6" y2="251.1"/>
-	<circle id="Ellipse_5_6_" class="st1" cx="250.6" cy="251.1" r="66.8"/>
-	<circle id="Ellipse_5_1_" class="st1" cx="250.6" cy="45.9" r="45.9"/>
-	<circle id="Ellipse_5_2_" class="st1" cx="442.3" cy="251.1" r="45.9"/>
-	<circle id="Ellipse_5_3_" class="st1" cx="324" cy="454.1" r="45.9"/>
-	<circle id="Ellipse_5_4_" class="st1" cx="86.1" cy="77.5" r="45.9"/>
-	<circle id="Ellipse_5_5_" class="st1" cx="53.3" cy="377.2" r="45.9"/>
-</g>
+<line class="st0" x1="324" y1="454.1" x2="250.6" y2="251.1"/>
+<line class="st0" x1="86.1" y1="77.5" x2="250.6" y2="251.1"/>
+<line class="st0" x1="250.6" y1="44.8" x2="250.6" y2="251.1"/>
+<line class="st0" x1="447.8" y1="251.1" x2="250.6" y2="251.1"/>
+<line class="st0" x1="53.3" y1="377.2" x2="250.6" y2="251.1"/>
+<circle id="Ellipse_5_6_" class="st1" cx="250.6" cy="251.1" r="66.8"/>
+<circle id="Ellipse_5_1_" class="st1" cx="250.6" cy="45.9" r="45.9"/>
+<circle id="Ellipse_5_2_" class="st1" cx="442.3" cy="251.1" r="45.9"/>
+<circle id="Ellipse_5_3_" class="st1" cx="324" cy="454.1" r="45.9"/>
+<circle id="Ellipse_5_4_" class="st1" cx="86.1" cy="77.5" r="45.9"/>
+<circle id="Ellipse_5_5_" class="st1" cx="53.3" cy="377.2" r="45.9"/>
 </svg>
