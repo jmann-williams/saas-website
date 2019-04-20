@@ -24,28 +24,8 @@ a:focus {
   outline: 3px solid #414182;
 }
 
-h1 {
-  font-weight: 900;
-}
-
-h2 {
-  font-family: Montserrat, sans-serif;
-  color: #414182;
-  font-weight: 900;
-}
-
-.info {
-  font-family: Montserrat, sans-serif;
-  color: #414182;
-  font-weight: 900;
-}
-
 h3 {
   color: #414182;
-}
-
-p {
-  font-weight: 300;
 }
 
 .current {
@@ -205,10 +185,6 @@ section .btn:hover {
 
 .limit {
   color: #414182;
-}
-
-.pricing-list {
-  font-weight: 300;
 }
 
 .home-link {
